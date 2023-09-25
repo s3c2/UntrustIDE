@@ -22,7 +22,7 @@ Have a VS Code extension source code, sample data is provided in subdirectory [s
 
 ### Building CodeQL Databases
 
-Sample databases are provided: [sample](./sample-data/).
+Sample databases are provided: [sample-data](./sample-data/).
 
 If you wish to run it on other extensions, download the source code and build the source code into CodeQL databases by running the following [command](https://docs.github.com/en/code-security/codeql-cli/codeql-cli-manual/database-create) in the source code directory. (CodeQL CLI required)  
 `codeql database create <database-output-directory> --language=javascript`
@@ -32,6 +32,7 @@ If you wish to run it on other extensions, download the source code and build th
 0. Open this repo in VS Code.
 
 1. Load database  
+Select `From a folder` and choose from the databases provided in [sample-data](./sample-data) 
 ![load-database](./images/load-database.png)
 
 2. Select database (the checkmark indicates database is selected)  
