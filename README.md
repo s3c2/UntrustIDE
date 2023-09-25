@@ -22,34 +22,24 @@ Have a VS Code extension source code, sample data is provided in subdirectory [s
 
 ### Building CodeQL Databases
 
-A sample database is provided: [sample](./sample-data/git-graph-extension-codeql-database/).
+Sample databases are provided: [sample](./sample-data/).
 
 If you wish to run it on other extensions, download the source code and build the source code into CodeQL databases by running the following [command](https://docs.github.com/en/code-security/codeql-cli/codeql-cli-manual/database-create) in the source code directory. (CodeQL CLI required)  
 `codeql database create <database-output-directory> --language=javascript`
 
-### Running Queries
-
-There are two ways to run the CodeQL queries:
-
-#### With CodeQL CLI  
-Run the following [command](https://docs.github.com/en/code-security/codeql-cli/codeql-cli-manual/database-analyze).  
-`codeql database analyze <database-directory> --format=<output-format> --output=<output-filepath> --timeout=<timelimit> <query-path>`
-
-Results will be in outputted file.
-
-#### With VS Code CodeQL extension  
+### Running Queries With the VS Code CodeQL extension  
 
 0. Open this repo in VS Code.
 
 1. Load database  
-![load-database](./assets/load-database.png)
+![load-database](./images/load-database.png)
 
 2. Select database (the checkmark indicates database is selected)  
-![select-database](./assets/select-database.png)
+![select-database](./images/select-database.png)
 
 3. In VS Code, right-click on query file or open a query file and right-click.
 Select option `CodeQL: Run Query on Selected Database` to run the query.   
-![run-query](./assets/run-query.png)
+![run-query](./images/run-query.png)
 
 Results will display in VS Code.
 
