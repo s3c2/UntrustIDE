@@ -1,0 +1,33 @@
+version: 2
+updates:
+  - package-ecosystem: "cargo"
+    directory: "ruby"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "cargo"
+    directory: "ql"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-patch', 'version-update:semver-minor']
+
+  - package-ecosystem: "gomod"
+    directory: "go/extractor"
+    schedule:
+      interval: "daily"
+    allow:
+      - dependency-name: "golang.org/x/mod"
+      - dependency-name: "golang.org/x/tools"
+    group:
+      extractor-dependencies:
+        patterns:
+          - "golang.org/x/*"
+    reviewers:
+      - "github/codeql-go"
