@@ -1,6 +1,14 @@
 # UntrustIDE
 
-## Introduction
+UntrustIDE is our work on exploiting weaknesses in VS Code extensions.
+
+We identified a total of 716 dangerous data flows in extensions.
+
+We verified 21 extension vulnerabilities with PoC exploits for code injection, impacting more than **6 million installations**.
+
+Eextension developers and GitHub were notified of our results.
+
+## What is in this repo?
 
 This is a modified copy of the [vscode-codeql-starter repository](https://github.com/github/vscode-codeql-starter/).
 
