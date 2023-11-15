@@ -6,16 +6,22 @@ We identified a total of 716 dangerous data flows in extensions.
 
 We verified 21 extension vulnerabilities with PoC exploits for code injection, impacting more than **6 million installations**.
 
-Eextension developers and GitHub were notified of our results.
+Extension developers and GitHub were notified of our results.
+
+## Research paper for our work
+
+Our paper has been accepted and will appear at the Network and Distributed System Security Symposium (NDSS).
 
 ## What is in this repo?
 
 This is a modified copy of the [vscode-codeql-starter repository](https://github.com/github/vscode-codeql-starter/).
 
 The repo includes
-- Example queries to identify sources and sinks, visit [source-and-sink](./codeql-custom-queries-javascript/source-and-sink/)
-- A set of CodeQL rules for identifying VS Code extension vulnerabilities, visit [dataflow](./codeql-custom-queries-javascript/dataflow/).  
-For more on how the dataflow queries work, visit [dataflow docs](./codeql-custom-queries-javascript/dataflow/README.md)
+- Example queries to identify sources and sinks, visit [queries/source-and-sink](./queries/source-and-sink/)
+- A set of CodeQL rules for identifying VS Code extension vulnerabilities, visit [queries/dataflow](./queries/dataflow/).  
+For more on how the dataflow queries work, visit [dataflow docs](./queries/dataflow/README.md)
+- sample CodeQL databases at [sample-data](./sample-data/) to test the queries on
+- The [ql](./ql) folder contains libraries in order for the CodeQL queries to function properly
 
 
 ## Requirements
