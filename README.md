@@ -10,7 +10,7 @@ Extension developers and GitHub were notified of our results.
 
 ## Research paper for our work
 
-Our paper has been accepted and will appear at the Network and Distributed System Security Symposium (NDSS).
+Our paper has been accepted and will appear at the Network and Distributed System Security Symposium (NDSS) 2024.
 
 ## What is in this repo?
 
