@@ -10,7 +10,8 @@ Extension developers and GitHub were notified of our results.
 
 ## Research paper for our work
 
-Our paper has been accepted and will appear at the Network and Distributed System Security Symposium (NDSS) 2024.
+[UntrustIDE: Exploiting Weaknesses in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)
+ @ *NDSS Symposium 2024*
 
 ## What is in this repo?
 
