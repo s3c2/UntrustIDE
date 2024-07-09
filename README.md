@@ -13,6 +13,9 @@ Extension developers and GitHub were notified of our results.
 [UntrustIDE: Exploiting Weaknesses in VS Code Extensions](https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/)
  @ *NDSS Symposium 2024*
 
+If you think academic papers are too long and dense, here is a slimmed down blog post:  
+[Weaknesses in VS Code Extensions](https://elizabethtlin.com/untrustide/)
+
 ## What is in this repo?
 
 This is a modified copy of the [vscode-codeql-starter repository](https://github.com/github/vscode-codeql-starter/).
